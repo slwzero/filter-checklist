@@ -1,0 +1,8 @@
+<div class="app">
+  <div class="filter" (click)="showFilter()">
+    <i class="material-icons">filter_list</i>
+    <span class="text">Filter</span>
+  </div>
+  <app-filter *ngIf="isShown"></app-filter>
+
+</div>
